@@ -1,3 +1,257 @@
-form {
+
+.divbody {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 2% 20% 3% 15%;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin-right: 5%;
+}
+ 
+nav ul a {
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
+
+ nav ul a :hover {
+    color: red;
+   transition: all ease-in-out 0.5s;
+}
+
+nav ul {
+    list-style-type: none; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.formcontainer { 
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-bottom: 3%;
+}
+
+.labelcontainer {
+    display :flex;
+    flex-direction: column;
+    text-align: justify;
+    color: blue;
+    /* padding: 3vw 7vh; */
+    padding: 10% 15% 15% 15%;
+
+}
+
+.btn {
+    border-radius: 60px;
+    padding: 3% 38%;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+ background:rgb(0, 1, 17);
+ color: red;
+ transition: all ease-in-out 0.5s;
+}
+
+.tableau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+
+.divfruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    gap: 20px;
+    background-color: rgb(56, 56, 177);
     
+}
+
+footer div img {
+    width: 25px;
+}
+
+@media screen and (max-width :600px) {  
+    h1 {
+        font-size: 30px;
+    }
+
+    .formcontainer { 
+        width: 200px;
+    }
+
+    .tableau {
+        font-size: 10px;
+    }
+    
+    .imgpom {width: 120px;} 
+
+    .imgmang {width: 120px;}
+    
+    .imgban {width: 120px;}
+
+    .btn {
+        border-radius: 60px;
+        padding: 2% 30%;
+        background: blue;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .divfruit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+}
+
+@media screen and (min-width :601px) and (max-width :800px) {
+    nav ul {
+        list-style-type: none; 
+    }
+    
+    .nav-bar{
+        gap: 0%;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-right: 5%;
+        gap: 0%;
+    }
+    
+    nav ul a {
+        color: black;
+        margin-left:3px ;
+        margin-right:3px ;
+        gap: 0%;
+        text-decoration: underline;
+    }
+    
+    nav ul a :hover {
+        color: red;
+       transition: all ease-in-out 0.5s;
+    }
+
+    .imgpom {width: 110px;} 
+
+    .imgmang {width: 100px;}
+    
+    .imgban {width: 105px;}
+}
+
+@media screen and (min-width :801px) and (max-width :1030px) {
+
+    nav ul {
+        list-style-type: none; 
+    }
+    
+    .nav-bar{
+        gap: 0%;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-right: 5%;
+        gap: 0%;
+        
+    }
+    
+    nav ul a {
+        color: black;
+        margin-left:5px ;
+        margin-right:5px ;
+        gap: 0%;
+        text-decoration: underline;
+    }
+    
+    nav ul a :hover {
+        color: red;
+       transition: all ease-in-out 0.5s;
+    }
+
+    .imgpom {width: 140px;} 
+
+    .imgmang {width: 110px;}
+    
+    .imgban {width: 140px;}
+}
+
+@media screen and (min-width :1031px) {
+
+    nav ul {
+        list-style-type: none; 
+    }
+    
+    .nav-bar{
+        gap: 0%;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-right: 5%;
+        gap: 0%;
+        
+    }
+    
+    nav ul a {
+        color: black;
+        margin-left:5px ;
+        margin-right:5px ;
+        gap: 0%;
+        text-decoration: underline;
+    }
+    
+    nav ul a :hover {
+        color: red;
+       transition: all ease-in-out 0.5s;
+    }
+
+    .imgpom {width: 220px;} 
+
+    .imgmang {width: 170px;}
+    
+    .imgban {width: 220px;}
 }

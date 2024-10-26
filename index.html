@@ -5,71 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header> 
-        <h1>EXERCICES DEV FULL STACK</h1>
-        <nav>
-            <ul>
-                <li>Acceuil</li>
-                <li>A propos</li>
-                <li>Contacts</li>
-            </ul>
-        </nav>
+    <div class="divbody">
+    <header>
+        <div class="nav-bar">
+            <div></div>
+            <nav>
+                <ul>
+                    <a href="#">
+                        <li>Acceuil</li>
+                    </a>
+                    <a href="#">
+                        <li>A propos</li>
+                    </a>
+                    <a href="#">
+                        <li>Contacts</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Developper Full Stack</h1>
+
     </header>
     <main>
-        <form action="">
-            <label for="Name">Name</label><br>
-            <input type="text"><br>
-            <label for="Email">Email</label><br>
-            <input type="text"><br>
-            <label for="Message"> Message</label><br>
-            <textarea name="" id=""></textarea>
-        </form>
+        <div class="formcontainer">
+            <form action="">
+                <div class="labelcontainer">
+                    <label for="Name">Name</label>
+                    <input type="text">
+                    <label for="Email">Email</label>
+                    <input type="text">
+                    <label for="Message"> Message</label>
+                    <textarea name="" id="" rows="5"></textarea> <br>
+                     <a href="" class="btn">Envoyer</a>
+                </div>
+            </form>
+        </div>
+        <div class="tableau">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pomme</td>
+                        <td>Mangue</td>
+                        <td>Banane</td>
+                    </tr>
+                    <tr>
+                        <td>1Kg</td>
+                        <td>2Kg</td>
+                        <td>3Kg</td>
+                    </tr>
+                    <tr>
+                        <td>2$</td>
+                        <td>1$</td>
+                        <td>1$</td>
+                    </tr>
+                </tbody>
 
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Col1</th>
-                    <th>Col2</th>
-                    <th>Col3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Pomme</td>
-                    <td>Mangue</td>
-                    <td>Banane</td>
-                </tr>
-                <tr>
-                    <td>1Kg</td>
-                    <td>2Kg</td>
-                    <td>3Kg</td>
-                </tr>
-                <tr>
-                    <td>2$</td>
-                    <td>1$</td>
-                    <td>1$</td>
-                </tr>
-            </tbody>
-
-        </table>
-
-        <a href="https://www.istockphoto.com/fr/photos/fruit">
-            <img src="istockphoto-529664572-612x612.jpg" alt="Les fruits">
-        </a>
+            </table>
+        </div>
+        <div class="divfruit">
+            <img src="pomme.jpg" alt="La pomme" class="imgpom">
+            <img src="mangue.jpg" alt="La mangue" class="imgmang">
+            <img src="banane.jpg" alt="La banane" class="imgban">
+        </div>
     </main>
     <footer>
-        <ul>
-            <li> <a href=""> <img src="facebook-.png" alt="Mon facebook"></a> </li>
-            <li> <a href="https://secure.skype.com/portal/overview"> <img src="skype.png" alt="Mon skype"></a> </li>
-            <li> <a href=""> <img src="whatsapp.png" alt="Mon whatsapp"></a> </li>
-            <li> <a href="https://www.linkedin.com/in/brise-pila-a34b45b7/?originalSubdomain=cd"> <img src="linkedin.png" alt="Mon linkedin"></a> </li>
-        </ul>
-
+        <div>
+            <a href=""> <img src="facebook-.png" alt="Mon facebook">
+                <a href="https://secure.skype.com/portal/overview"> <img src="skype.png" alt="Mon skype"></a>
+                <a href=""> <img src="whatsapp1.png" alt="Mon whatsapp"></a>
+                <a href="https://www.linkedin.com/in/brise-pila-a34b45b7/?originalSubdomain=cd"> <img src="linkedin.png"
+                        alt="Mon linkedin"></a>
+        </div>
     </footer>
-
+</div>
 </body>
 
 </html>
